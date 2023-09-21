@@ -1,0 +1,45 @@
+.form {
+    /* border: 3px solid blue; */
+    display: flex;
+    flex-direction: column;
+    margin: 5px 5% 5px 5%;
+    background-image: linear-gradient(to right, plum, pink);
+}
+
+.container {
+    /* border: 3px solid red; */
+}
+
+.cancel {
+    /* border: 1px solid red; */
+    float: right;
+    padding: 15px;
+}
+
+.addData {
+    border: 1px solid red;
+    margin-left: 45%;
+    background-color: purple;
+}
+
+.tablecontainer {
+    /* border: 1px solid black; */
+}
+
+.tablecontainer table {
+    border: 1px solid black;
+    margin-left: 25%;
+    background-image: linear-gradient(to right, plum, pink);
+}
+
+table,
+th,
+td {
+    border: 1px solid;
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: left;
+}
